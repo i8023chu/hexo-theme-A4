@@ -8,7 +8,7 @@
     "format": "prettier --write ./source/js/*.js ./scripts ",
     "lint:style": "stylelint --fix ./source/css",
     "git:push": "git push --tag && git push -u origin dev",
-    "git:add": "npm run lint:style && git add ."
+    "git:add": "npm run lint:style && git add .",
     "build": "hexo generate",
     "clean": "hexo clean",
     "server": "hexo server"
